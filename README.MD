@@ -19,6 +19,8 @@ Turn NFC on, tap the tag to your phone if it's not in the phone case already, an
 
 Tap the area where the tag is to another phone! For iphones, it's the top bar.
 
+NOTE: Sharing files requires users to be on same network, and contact cards are stripped of their profile pictures.
+
 ## Contributing
 
 Please let me know of there are issues. I abused the shit out of AI to make this, so feel free to copy any and/or all code.
