@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/status_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share a link, file, or contact to start"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Status: Waiting for share..."
+        android:id="@+id/sub_status"
+        android:alpha="0.7" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDDDDD"
+        android:layout_marginVertical="32dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="After sharing, toggle nfc, and when you feel a buzz, turn it back off."
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:alpha="0.5" />
+
+</LinearLayout>
